@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Campo Minato</title>
+
+	</head>
+	<body>
+		<h1> Gioca a campo minato!</h1>
+		<h3>Regole del gioco:</h3>
+		<p>Inserisci un numero dopo l'altro. Evitando di scegliere i numeri vietati! (i numeri vietati vengono generati random ogni inizio partita!)</p>
+		<h3>Seleziona la difficoltà:</h3>
+		<select id="selectDif" class="" name="difficulty">
+			<option value="1">Facile</option>
+			<option value="2">Medio</option>
+			<option value="3">Difficile</option>
+		</select>
+		<div class="box-user">
+			<label for="number">Inserisci un numero da 1 a 100</label>
+			<input id="numUser" type="number" name="" placeholder="Inserisci numero">
+			<button id="btnAvvia" type="button" name="button">Avvia</button>
+		</div>
+		<div class="box-result">
+			<h1 id="result"></h1>
+		</div>
+		<script src="js/script.js" charset="utf-8"></script>
+	</body>
+</html>
