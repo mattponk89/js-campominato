@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-box{
+  text-align: center;
+  margin-top: 50px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 30px;
+}
+.main-box > h1 {
+  margin-bottom: 20px;
+}
+.main-box > p {
+  margin-bottom: 20px;
+}
+.main-box .box-user select {
+  margin-bottom: 20px;
+}
+.main-box .box-user {
+  padding-bottom: 20px;
+}
+.box-result{
+  padding-bottom: 20px;
+}
+#gameBox{
+  margin-top: 30px;
+  padding: 20px;
+  display:none;
+}
+.main-box button {
+  padding: 5px;
+}
+#numUser {
+  width: 6em;
+}
