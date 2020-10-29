@@ -40,3 +40,6 @@
 #numUser {
   width: 6em;
 }
+#numUser {
+  line-height: 20px;
+}
